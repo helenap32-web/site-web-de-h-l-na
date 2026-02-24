@@ -1,0 +1,66 @@
+﻿<html lang="fr">
+<head>
+    <title>Site de Héléna</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+<body>
+
+    <div id="entete-de-page">
+        BIENVENUE SUR LE SITE DE HÉLÉNA
+    </div>
+
+    <table id="bloc-menu">
+        <tr>
+            <th><a href="index.html">Accueil</a></th>
+            <th><a href="productions.html">Productions scolaires</a></th>
+            <th><a href="passions.html">Mes passions</a></th>
+            <th><a href="Videos.html">Mes vidéos</a></th>
+            <th><a href="monsitedereve/index.html">Mon site de rêve</a></th>
+        </tr>
+    </table>
+
+    <div id="contenu">
+        <div class="presentation">
+            <img src="avatar.png" alt="Avatar Héléna">
+            
+            <div class="texte">
+                <h2>1. Je me présente...</h2>
+                <p>Je m’appelle Héléna, j’ai 16 ans et je suis en classe de seconde générale. En dehors de l’école, j’aime beaucoup faire du sport car ça me permet de me défouler et de me sentir bien au quotidien.</p>
+                <p>Je m’intéresse particulièrement aux réseaux sociaux et à la communication digitale. Plus tard, j’aimerais travailler dans le marketing digital car c’est un domaine qui combine créativité, stratégie et nouvelles technologies.</p>
+            </div>
+        </div>
+
+        <hr>
+
+        <h2></h2>
+        <p></p>
+
+        <div class="musique-box">
+            <h3>🎵 Ambiance Musicale</h3>
+            <p><em>Blood Orange - Champagne Coast</em></p>
+            
+            <audio id="maMusique">
+                <source src="musique.mp3" type="audio/mpeg">
+            </audio>
+            
+            <div class="controls">
+                <button onclick="document.getElementById('maMusique').play()">PLAY</button>
+                <button onclick="document.getElementById('maMusique').pause()">PAUSE</button>
+                <button onclick="document.getElementById('maMusique').load()">STOP</button>
+            </div>
+        </div>
+
+        <div style="margin-top: 20px; text-align: center;">
+            <hr>
+            <p>🔗 <strong>Lien Relatif :</strong> Consultez <a href="passions.html" style="color: #F296A4;">ma page sur mes passions</a>.</p>
+            <p>🔗 <strong>Lien Absolu :</strong> Pour en savoir plus sur ma passion pour le chocolat, visitez le site officiel <a href="https://www.ferrero.com" target="_blank" style="color: #F296A4;">Ferrero.com</a>.</p>
+        </div>
+    </div>
+
+    <div id="pied-de-page">
+        <p>Site réalisé par Héléna en cours de SNT - 24/02/2026</p>
+    </div>
+
+</body>
+</html>

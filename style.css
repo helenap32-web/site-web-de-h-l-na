@@ -1,0 +1,117 @@
+/* --- BASE --- */
+body {
+    background-color: #FFF68C; /* Fond jaune */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+}
+
+/* --- EN-TETE --- */
+#entete-de-page {
+    background-color: #F296A4;
+    padding: 30px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: #163880;
+}
+
+/* --- MENU --- */
+#bloc-menu {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #EDBBD3;
+}
+#bloc-menu th {
+    border: 1px solid #91496B;
+    padding: 12px;
+}
+#bloc-menu a {
+    text-decoration: none;
+    color: #163880;
+    font-weight: bold;
+}
+
+/* --- ZONE SOMBRE --- */
+#contenu {
+    background-color: #333333; /* Gris foncé */
+    color: white;
+    padding: 40px;
+    margin: 20px auto;
+    width: 85%;
+    border-radius: 15px;
+    box-shadow: 0px 4px 15px rgba(0,0,0,0.3);
+}
+
+/* --- AVATAR ET TEXTE --- */
+.presentation {
+    display: flex;
+    align-items: center;
+    gap: 35px;
+}
+
+.presentation img {
+    width: 200px;
+    border-radius: 10px;
+    border: 3px solid #F296A4;
+}
+
+/* --- BLOC MUSIQUE --- */
+.musique-box {
+    background-color: #444444;
+    padding: 25px;
+    border-radius: 12px;
+    text-align: center;
+    margin-top: 30px;
+    border: 1px solid #555;
+}
+
+.controls button {
+    background-color: #F296A4;
+    color: #163880;
+    padding: 12px 25px;
+    margin: 8px;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+.controls button:hover {
+    background-color: white;
+    transform: scale(1.1);
+}
+
+/* --- PIED DE PAGE --- */
+#pied-de-page {
+    text-align: center;
+    padding: 20px;
+    color: #163880;
+}
+/* Style spécifique pour la page Animés */
+.presentation-anime {
+    line-height: 1.8; /* Plus d'espace entre les lignes pour le côté "chill" */
+    font-size: 18px;
+    background: rgba(255, 255, 255, 0.05); /* Petit voile transparent */
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+strong {
+    color: #F296A4; /* Met JJK en rose pour le style */
+}
+
+iframe {
+    border: 5px solid #F296A4;
+    border-radius: 15px;
+    box-shadow: 0px 0px 20px rgba(242, 150, 164, 0.3); /* Lueur rose autour de la vidéo */
+}
+/* Style pour l'iframe des productions (demandé par la prof) */
+.iframe-prod {
+    height: 80vh;  /* 80% de la hauteur de l'écran */
+    width: 80%;    /* 80% de la largeur du cadre */
+    border: 2px solid #F296A4;
+    border-radius: 10px;
+}

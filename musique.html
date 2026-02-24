@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <title>Mon Univers Musical</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="entete-de-page"> 
+        <p>🎵 VIBES & MUSIQUE</p>
+    </div> 
+
+    <table id="bloc-menu">
+        <tr>
+            <th><a href="index.html">Accueil</a></th>
+            <th><a href="anime.html">Animés</a></th>
+            <th><a href="nourriture.html">Nourriture</a></th>
+        </tr>
+    </table> 
+
+    <div id="contenu">
+        <h2>❀Mes Artistes Préférés❀</h2>
+
+        <div style="display: flex; align-items: center; justify-content: space-between; gap: 20px; margin-bottom: 30px;">
+            
+            <div style="flex: 1;">
+                <p>La musique m'accompagne partout, que ce soit pour me motiver ou me détendre.</p>
+                <ul class="liste-passions">
+                    <li>𝑭𝒓𝒂𝒏𝒌 𝑶𝒄𝒆𝒂𝒏</li>
+                    <li>𝑺𝒕𝒆𝒗𝒆 𝑳𝒂𝒄𝒚</li>
+                    <li>𝑻𝒚𝒍𝒆𝒓, 𝑻𝒉𝒆 𝑪𝒓𝒆𝒂𝒕𝒐𝒓</li>
+                    <li>𝑲𝒂𝒍𝒊 𝑼𝒄𝒉𝒊𝒔</li>
+                    <li>𝑴𝒊𝒄𝒉𝒂𝒆𝒍 𝑱𝒂𝒄𝒌𝒔𝒐𝒏</li>
+                </ul>
+            </div>
+
+            <div style="flex: 1; text-align: right;">
+                <img src="photo.png" alt="photo" style="width: 250px; border-radius: 20px; border: 3px solid #F296A4; box-shadow: 0px 4px 10px rgba(0,0,0,0.3);">
+            </div>
+            
+        </div>
+
+        <hr>
+        
+        <p>La musique est très importante pour moi. J’aime écouter différents styles selon mon humeur, mais surtout des musiques des années 80s.
+        Elle peut me motiver, me détendre ou simplement me faire plaisir.
+        Mes chansons ou artistes préférés m’aident à ressentir des émotions que je ne pourrais pas forcément exprimer avec des mots.
+        Quand je dessine, lis ou joue à des jeux vidéo la musique rend le moment encore plus intense et agréable.</p>
+
+        <div class="musique-box">
+            <h3>🎵 Musique 1</h3>
+            <p><em>𝐌𝐢𝐱-𝐀𝐄𝐀𝐎</em></p>
+            <audio id="musique1">
+                <source src="musiqueee.mp3" type="audio/mpeg">
+            </audio>
+            <div class="controls">
+                <button onclick="document.getElementById('musique1').play()">PLAY</button>
+                <button onclick="document.getElementById('musique1').pause()">PAUSE</button>
+                <button onclick="document.getElementById('musique1').load()">STOP</button>
+            </div>
+        </div>
+
+        <div class="musique-box" style="margin-top: 20px;">
+            <h3>🎵 Musique 2</h3>
+            <p><em>𝐋𝐞𝐬-𝐃𝐨𝐧𝐚𝐥𝐝 𝐆𝐥𝐨𝐯𝐞𝐫</em></p>
+            <audio id="musique2">
+                <source src="Musiquee.mp3" type="audio/mpeg">
+            </audio>
+            <div class="controls">
+                <button onclick="document.getElementById('musique2').play()">PLAY</button>
+                <button onclick="document.getElementById('musique2').pause()">PAUSE</button>
+                <button onclick="document.getElementById('musique2').load()">STOP</button>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
