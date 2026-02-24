@@ -1,13 +1,13 @@
 /* --- BASE --- */
 body {
-    background-color: #FFF68C; /* Fond jaune */
+    background-color: #FFE3F1; /* Fond blanc */
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
 }
 
 /* --- EN-TETE --- */
 #entete-de-page {
-    background-color: #F296A4;
+    background-color:#FAACD1;
     padding: 30px;
     text-align: center;
     font-size: 30px;
